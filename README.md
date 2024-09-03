@@ -1,4 +1,4 @@
-# Wallpaper Changer Hotkey
+# Wallpaper Changer Hotkey (Windows)
 
 This script changes the desktop wallpaper when a specific key combination (Ctrl+Shift+K) is pressed.
 
@@ -22,6 +22,12 @@ This script changes the desktop wallpaper when a specific key combination (Ctrl+
 ## Usage 
 
 - Press `Ctrl + Shift + K` to change the desktop wallpaper.
+
+## Running Without a Terminal Window
+- Use pythonw.exe:
+    - Rename the python script with a .pyw extension instead of .py.
+    - This will run the script with pythonw.exe, which doesn't open a terminal window.
+    - Example: hotkey_listener.pyw
 
 ## License 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
