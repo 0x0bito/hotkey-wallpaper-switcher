@@ -1,6 +1,6 @@
 # Wallpaper Changer Hotkey
 
-This script changes the desktop wallpaper when a specific key combination (Ctrl+Shift+K) is pressed. It runs continuously in the background and can be set to start automatically with Windows.
+This script changes the desktop wallpaper when a specific key combination (Ctrl+Shift+K) is pressed.
 
 ## Installation
 
@@ -18,12 +18,6 @@ This script changes the desktop wallpaper when a specific key combination (Ctrl+
 
 -   **Modify** `hotkey_listener.py` to set the correct directory for your wallpapers if necessary.
  The default is `C:/Users/<YourUsername>/Pictures/wallpapers`.
-
-- **Modify** `runner.bat` file to set the correct directory of `hotkey_listener.py`
-
-- **Run** the `setup.py` script to add the `runner.bat` file to the Startup folder.
-
-- **Restart the Computer** to ensure the script runs on startup. With these updates, don't forget to update `runner.bat` to the corresponding path of `hotkey_listener.py` script.
 
 ## Usage 
 
