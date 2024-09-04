@@ -23,11 +23,22 @@ This script changes the desktop wallpaper when a specific key combination (Ctrl+
 
 - Press `Ctrl + Shift + K` to change the desktop wallpaper.
 
+
 ## Running Without a Terminal Window
 - Use pythonw.exe:
     - Rename the python script with a .pyw extension instead of .py.
-    - This will run the script with pythonw.exe, which doesn't open a terminal window.
+    - This will run the script with pythonw.exe, which doesnt open a terminal window.
     - Example: hotkey_listener.pyw
+
+## Running at the startup
+- Use pythonw.exe:
+  - Rename your script to hotkey_listener.pyw to run it without showing a terminal window.
+  - Place the renamed script in the following directory to run it automatically at startup:
+      
+      ``` 
+      C:/Users/<YourUsername>/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup
+      ```
+      
 
 ## License 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
